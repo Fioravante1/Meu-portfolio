@@ -3,7 +3,7 @@ const config = {
     number: {
       value: 60,
       density: {
-        enable: true,
+        enable: false,
         value_area: 500
       }
     },
@@ -26,14 +26,14 @@ const config = {
       anim: {
         enable: false,
         opacity_min: 0.1,
-        sync: true
+        sync: false
       }
     },
     size: {
       value: 5,
       random: true,
       anim: {
-        enable: false,
+        enable: true,
         size_min: 0.1,
         sync: false
       }
@@ -52,8 +52,8 @@ const config = {
       straight: false,
       attract: {
         enable: false,
-        rotateX: 800,
-        rotateY: 900
+        rotateX: 250,
+        rotateY: 250
       }
     }
   },
@@ -63,10 +63,10 @@ const config = {
         enable: true,
       },
       onclick: {
-        enable: true,
+        enable: false,
         mode: "push"
       },
-      resize: true
+      resize: false
     },
     modes: {
       grab: {

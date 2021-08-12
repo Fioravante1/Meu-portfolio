@@ -17,8 +17,8 @@ export const ContainerHero = styled.div`
   align-items: center;
 
   position: absolute;
-  width: 900px;
-  height: 600px;
+  width: 600px;
+  height: 400px;
   background: rgba(61, 75, 66, 0.05);
   box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.3);
   border-radius: 20px;
@@ -26,19 +26,19 @@ export const ContainerHero = styled.div`
 
 export const NameHero = styled.h1`
   position: static;
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: #000;
 `;
 
 export const ProfessionHero = styled.p`
   position: static;
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: #E5E5E5;
 `;
 
 export const PhotoHero = styled.div`
 
 img {
-  max-width: 250px;
+  max-width: 150px;
 }
 `;
