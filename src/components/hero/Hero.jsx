@@ -21,7 +21,7 @@ function Hero() {
           <br/>
           <br/>
           <S.NameHero>
-            FIORAVANTE CHIOZZI
+            Fioravante Chiozzi
           </S.NameHero>
           <br/>
           <S.ProfessionHero>

@@ -28,4 +28,9 @@ export const TextHeader = styled.h1`
   font-family: 'Times New Roman', Times, serif;
   font-size: 1rem;
   font-style: normal;
+  transition: ease 0.3s;
+  :hover {
+      color: black;
+      transform: scale(1.4);
+    }
 `;

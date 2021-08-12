@@ -28,6 +28,7 @@ export const NameHero = styled.h1`
   position: static;
   font-size: 2rem;
   color: #000;
+  font-style: italic;
 `;
 
 export const ProfessionHero = styled.p`
@@ -45,6 +46,10 @@ export const ConteinerIcons = styled.div`
 
 export const LinksHero = styled.a`
   color: #000;
+  transition: ease 0.9s;
+  :hover {
+      transform: translateY(-15px);
+    }
 `;
 
 export const PhotoHero = styled.div`
