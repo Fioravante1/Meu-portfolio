@@ -36,6 +36,17 @@ export const ProfessionHero = styled.p`
   color: #E5E5E5;
 `;
 
+export const ConteinerIcons = styled.div`
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+`;
+
+export const LinksHero = styled.a`
+  color: #000;
+`;
+
 export const PhotoHero = styled.div`
 
 img {
