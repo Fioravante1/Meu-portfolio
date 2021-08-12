@@ -13,9 +13,9 @@ function Hero() {
       </S.HeroStyled>
 
       <S.ContainerHero>
-        {/* <S.PhotoHero>
+        <S.PhotoHero>
           <img src={fotoperfil} alt="Fioravante" />
-        </S.PhotoHero> */}
+        </S.PhotoHero>
         <br/>
         <br/>
         <S.NameHero>
