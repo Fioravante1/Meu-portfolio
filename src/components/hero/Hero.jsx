@@ -10,8 +10,6 @@ function Hero() {
     <>
       <S.HeroStyled>
         <ParticleConteiner />
-      </S.HeroStyled>
-
       <S.ContainerHero>
         <S.PhotoHero>
           <img src={fotoperfil} alt="Fioravante" />
@@ -44,6 +42,8 @@ function Hero() {
         </a>
       </div>
       </S.ContainerHero>
+      </S.HeroStyled>
+
     </>
   )
 }
