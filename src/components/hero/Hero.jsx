@@ -4,6 +4,7 @@ import * as S from './style';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import AlternateEmailIcon from '@material-ui/icons/AlternateEmail';
+import WhatsAppIcon from '@material-ui/icons/WhatsApp';
 import ParticleConteiner from './Particle';
 
 function Hero() {
@@ -53,6 +54,15 @@ function Hero() {
             >
               <AlternateEmailIcon style={{ fontSize: 30 }} />
             </S.LinksHero>
+
+            <S.LinksHero
+              href="https://api.whatsapp.com/send?phone=5511977530630"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <WhatsAppIcon style={{ fontSize: 30 }} />
+            </S.LinksHero>
+
           </S.ConteinerIcons>
         </S.ContainerHero>
       </S.HeroStyled>
