@@ -1,8 +1,9 @@
 import React from 'react';
 import * as S from './style';
-import fotoperfil from '../../Assets/fotoperfil.png';
-import { ReactComponent as Likedin } from '../../Assets/linkedin.svg';
-import { ReactComponent as GitHubIcon } from '../../Assets/github.svg';
+// import fotoperfil from '../../Assets/fotoperfil.png';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import GitHubIcon from '@material-ui/icons/GitHub';
+import AlternateEmailIcon from '@material-ui/icons/AlternateEmail';
 import ParticleConteiner from './Particle';
 
 function Hero() {
@@ -11,11 +12,11 @@ function Hero() {
       <S.HeroStyled>
 
         <ParticleConteiner />
-        
+
         <S.ContainerHero>
-          <S.PhotoHero>
+          {/* <S.PhotoHero>
             <img src={fotoperfil} alt="Fioravante" />
-          </S.PhotoHero>
+          </S.PhotoHero> */}
           <br/>
           <br/>
           <S.NameHero>
@@ -26,23 +27,33 @@ function Hero() {
             Desenvolvedor Web, Eterno Estudante
           </S.ProfessionHero>
           <br />
-          <div>
-            <a
+          <S.ConteinerIcons>
+
+
+            <S.LinksHero
               href="https://github.com/Fioravante1"
               target="_blank"
               rel="noreferrer"
             >
-              <GitHubIcon />
-            </a>
+              <GitHubIcon style={{ fontSize: 30 }}/>
+            </S.LinksHero>
 
-            <a
+            <S.LinksHero
               href="https://www.linkedin.com/in/fioravantechiozzi/"
               target="_blank"
               rel="noreferrer"
             >
-              <Likedin />
-            </a>
-          </div>
+              <LinkedInIcon style={{ fontSize: 30 }} />
+            </S.LinksHero>
+
+            <S.LinksHero
+              href="mailto:f.ichiozzi@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <AlternateEmailIcon style={{ fontSize: 30 }} />
+            </S.LinksHero>
+          </S.ConteinerIcons>
         </S.ContainerHero>
       </S.HeroStyled>
 
