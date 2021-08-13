@@ -14,13 +14,13 @@ function Skils() {
 
           <div>
             <p>
-              No momento estou atuando no desenvolvimento de layouts para sites, landing pages e aplicativos. Tenho bom conhecimento em Html5, CSS e Javascript, tambem trabalho com Bootstrap, Sass e Styled Components. Tenho conhecimento em React, Redux e git para versionamento do meu código. Atualmente venho estudando TypeScript, MySql, MongoDb e NodeJs.
+              No momento estou atuando no desenvolvimento de layouts para sites, landing pages e aplicativos. Tenho bom conhecimento em Html5, CSS e Javascript, tambem trabalho com Bootstrap, Sass e Styled Components. Tenho conhecimento em React, Redux e Git para versionamento do meu código. Atualmente venho estudando TypeScript, MySql, MongoDb e NodeJs.
             </p>
 
             <br/>
 
             <p>
-              Nas criações de protótipos, utilizo o Figma. Quer conhecer um pouco mais sobre o meu trabalho, então confere abaixo o meu portfólio. Pode me chamar para um papo.
+              Nas criações de protótipos, utilizo o Figma. Quer conhecer um pouco mais sobre o meu trabalho, então confere abaixo o meu portfólio. Pode me chamar para um café.
             </p>
           </div>
         </section>

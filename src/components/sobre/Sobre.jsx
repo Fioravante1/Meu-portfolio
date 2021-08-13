@@ -10,7 +10,7 @@ function Sobre() {
         <S.TitleSobre data-aos="zoom-in">
 
           <h1>
-             SOBRE <span>MIN</span>
+             SOBRE <span>MIM</span>
           </h1>
           <br />
           <p>

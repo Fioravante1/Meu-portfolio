@@ -29,7 +29,7 @@ export const SkillConteiner = styled.div`
 
   p {
     font-size: 1.30rem;
-    color: #E5E5E5;
+    color:  #FFB633;
   }
 
   img {

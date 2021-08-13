@@ -24,7 +24,7 @@ export const ContainerHeader = styled.div`
 `;
 
 export const TextHeader = styled.h1`
-  color: #D8CDA1;
+  color: #FFB633;
   font-family: 'Times New Roman', Times, serif;
   font-size: 1rem;
   font-style: normal;

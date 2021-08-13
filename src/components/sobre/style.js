@@ -22,7 +22,7 @@ padding: 10px 10px;
   }
 
   p {
-    color:  #E5E5E5;
+    color:  #FFB633;
     font-size: 1.30rem;
     background: #272F2F;
   }

@@ -34,7 +34,7 @@ export const NameHero = styled.h1`
 export const ProfessionHero = styled.p`
   position: static;
   font-size: 1rem;
-  color: #E5E5E5;
+  color: #FFB633;
 `;
 
 export const ConteinerIcons = styled.div`
