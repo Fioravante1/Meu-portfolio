@@ -6,11 +6,11 @@ export const HeaderStyled = styled.header`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 50px 50px;
+  padding: 20px 50px;
   align-items: center;
 
   position: absolute;
-  background: rgba(61, 75, 66, 0.05);
+  background: #1F2828;;
 `;
 
 export const ContainerHeader = styled.div`
@@ -29,8 +29,9 @@ export const TextHeader = styled.h1`
   font-size: 1rem;
   font-style: normal;
   transition: ease 0.3s;
+  cursor: pointer;
   :hover {
       color: black;
-      transform: scale(1.4);
+      transform: scale(1.2);
     }
 `;

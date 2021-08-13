@@ -1,6 +1,5 @@
 import React from 'react';
 import * as S from './style';
-// import fotoperfil from '../../Assets/fotoperfil.png';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import AlternateEmailIcon from '@material-ui/icons/AlternateEmail';
@@ -10,14 +9,11 @@ import ParticleConteiner from './Particle';
 function Hero() {
   return (
     <>
-      <S.HeroStyled>
+      <S.HeroStyled id="home">
 
         <ParticleConteiner />
 
-        <S.ContainerHero>
-          {/* <S.PhotoHero>
-            <img src={fotoperfil} alt="Fioravante" />
-          </S.PhotoHero> */}
+        <S.ContainerHero >
           <br/>
           <br/>
           <S.NameHero>

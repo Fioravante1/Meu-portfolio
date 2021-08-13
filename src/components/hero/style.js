@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const HeroStyled = styled.section`
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   background-color: #1F2828;
   display: flex;
@@ -54,7 +54,5 @@ export const LinksHero = styled.a`
 
 export const PhotoHero = styled.div`
 
-img {
-  max-width: 150px;
-}
+
 `;
