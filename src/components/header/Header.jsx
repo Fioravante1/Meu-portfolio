@@ -4,9 +4,9 @@ import { Link } from 'react-scroll';
 
 function Header() {
   return (
-    <H.HeaderStyled>
+    <H.HeaderStyled id="home">
       
-      {/* <H.TextHeader>
+       <H.TextHeader>
         <Link
           activeClass="active"
           to="home"
@@ -17,7 +17,7 @@ function Header() {
         >
           FIORAVANTE CHIOZZI
         </Link>
-      </H.TextHeader> */}
+      </H.TextHeader> 
     
       <H.ContainerHeader>
       <H.TextHeader>

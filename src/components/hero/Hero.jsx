@@ -9,14 +9,14 @@ import ParticleConteiner from './Particle';
 function Hero() {
   return (
     <>
-      <S.HeroStyled id="home">
+      <S.HeroStyled>
 
         <ParticleConteiner />
 
-        <S.ContainerHero >
+        <S.ContainerHero data-aos="zoom-in">
             
           <S.NameHero>
-            Fioravante Chiozzi
+            FIORAVANTE CHIOZZI
           </S.NameHero>
             <br/>
           <S.ProfessionHero>

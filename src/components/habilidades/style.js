@@ -6,7 +6,34 @@ export const SkillConteiner = styled.div`
   min-height: 100vh;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   background:  #1F2828;
+
+  section {
+    max-width: 700px;
+  }
+
+  div {
+    max-width: 600px;
+  }
+
+  h1 {
+    color: #000;
+    font-size: 3rem;
+  }
+
+  span {
+    color: #D8CDA1;
+  }
+
+  p {
+    font-size: 1.30rem;
+    color: #E5E5E5;
+  }
+
+  img {
+    max-width: 400px;
+    max-height: 400px;
+  }
 `;

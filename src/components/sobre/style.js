@@ -17,7 +17,7 @@ padding: 10px 10px;
 
 
   h1 {
-    color: black;
+    color: #000;
     font-size: 3rem;
   }
 
@@ -29,7 +29,6 @@ padding: 10px 10px;
 
   span {
     color: #D8CDA1;
-    background: #272F2F;
   }
 
   button {
@@ -50,8 +49,13 @@ export const PhotoSobre = styled.div`
   justify-content: center;
   min-height: 100vh;
 
-    img {
-  max-width: 400px;
-  max-height: 400px;
-}
+  .foto__perfil {
+    max-width: 400px;
+    max-height: 400px;
+  }
+
+  .arrow__home {
+    max-width: 50px;
+    max-height: 50px;
+  }
 `;

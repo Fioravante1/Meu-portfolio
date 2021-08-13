@@ -13,7 +13,10 @@ import Contact from './components/contato/Contact';
 function App() {
 
   useEffect(() => {
-    Aos.init();
+    Aos.init({
+      delay: 200,
+      duration: 3000,
+    });
   }, []);
 
   return (
