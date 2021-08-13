@@ -2,12 +2,11 @@ import styled from "styled-components";
 
 export const ConteinerSobre = styled.section`
   width: 100%;
-  min-height: 100vh;
+  min-height: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  position: absolute;
   background:  #272F2F;
 `;
 

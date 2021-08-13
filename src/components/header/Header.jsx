@@ -34,6 +34,19 @@ function Header() {
         </H.TextHeader>  
 
         <H.TextHeader>
+          <Link
+            activeClass="active"
+            to="habilit"
+            spy={false}
+            smooth={true}
+            offset={0}
+            duration={800}
+          >
+            HABILIDADES 
+          </Link>
+        </H.TextHeader>
+
+        <H.TextHeader>
          PROJETOS
         </H.TextHeader>
 

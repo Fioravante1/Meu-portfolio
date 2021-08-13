@@ -14,16 +14,15 @@ function Hero() {
         <ParticleConteiner />
 
         <S.ContainerHero >
-          <br/>
-          <br/>
+            
           <S.NameHero>
             Fioravante Chiozzi
           </S.NameHero>
-          <br/>
+            <br/>
           <S.ProfessionHero>
             Desenvolvedor Web, Eterno Estudante
           </S.ProfessionHero>
-          <br />
+            <br />
           <S.ConteinerIcons>
 
 
