@@ -47,11 +47,29 @@ function Header() {
         </H.TextHeader>
 
         <H.TextHeader>
-         PROJETOS
+          <Link
+            activeClass="active"
+            to="projetos"
+            spy={false}
+            smooth={true}
+            offset={0}
+            duration={800}
+          >
+            PROJETOS
+          </Link>
         </H.TextHeader>
 
         <H.TextHeader>
-          CONTATO
+          <Link
+            activeClass="active"
+            to="contato"
+            spy={false}
+            smooth={true}
+            offset={0}
+            duration={800}
+          >
+            CONTATO
+          </Link>
         </H.TextHeader>
              
       </H.ContainerHeader>

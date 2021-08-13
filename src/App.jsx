@@ -6,6 +6,8 @@ import { GlobalStyle } from './styles/GlobalStyles';
 import { useEffect } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import Projects from './components/projetos/Projects';
+import Contact from './components/contato/Contact';
 
 
 function App() {
@@ -20,6 +22,8 @@ function App() {
       <Hero /> 
       <Sobre />
       <Skils />
+      <Projects />
+      <Contact />
       <GlobalStyle />
     </>
   );
